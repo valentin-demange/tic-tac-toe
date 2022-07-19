@@ -72,7 +72,7 @@ const gameController = (() => {
 
         // If round is over, we display the winner
         if (checkWinner(fieldIndex)) {
-            displayController.setText(`Le joueur ${currentPlayerSign} remporte la partie !`)
+            displayController.setText(`Le joueur ${currentPlayerSign} gagne !`)
             isOver = true;
             return
         }
