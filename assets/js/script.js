@@ -144,7 +144,23 @@ const displayController = (() => {
         cellElements[fieldIndex].textContent = string;
     }
 
+    // const highlightFields = (fieldIndex) => {
+    //     for (let i = 0; i<fieldIndex.length; i++) {
+    //         cellElements[fieldIndex[i]].style.backgroundColor = "var(--color-500)";
+    //     }
+    // }
+
     return {setText, setCell}
 }
 )();
 
+
+// tmp = document.querySelectorAll(".cell");
+// index = [1, 2, 3, 4, 5, 6]
+// for (var i = 0; i<index.length; i++) {
+//     console.log(index[i]);
+//     tmp[index[i]].style.backgroundColor = "purple";
+// }
+
+// tmptmptmp = tmp.slice([1, 3]);
+// tmp.forEach(tmptmp => {tmptmp.style.backgroundColor = "white"})
